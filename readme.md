@@ -10,6 +10,7 @@
 Информация доступа по адресу: http://localhost:8080/swagger-ui/index.html. 
 
 Для создания в БД пользователя User с правами USER необходимо выполнить POST-запрос на адрес http://localhost:8080/api/auth/registration с примером тела запроса:
+
 {
 
 "name": "User", 
@@ -23,6 +24,7 @@
 }
 
 Для создания в БД пользователя Admin с правами ADMIN необходимо выполнить POST-запрос на адрес http://localhost:8080/api/auth/registration с примером тела запроса:
+
 {
 
 "name": "Admin",
