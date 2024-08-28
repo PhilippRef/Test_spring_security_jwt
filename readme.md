@@ -11,16 +11,25 @@
 
 Для создания в БД пользователя User с правами USER необходимо выполнить POST-запрос на адрес http://localhost:8080/api/auth/registration с примером тела запроса:
 {
+
 "name": "User", 
+
 "password": "1", 
+
 "email": "user@user.com", 
+
 "role": "USER"
+
 }
 
 Для создания в БД пользователя Admin с правами ADMIN необходимо выполнить POST-запрос на адрес http://localhost:8080/api/auth/registration с примером тела запроса:
 {
+
 "name": "Admin",
+
 "password": "1",
+
 "email": "admin@admin.com",
+
 "role": "ADMIN"
 }
