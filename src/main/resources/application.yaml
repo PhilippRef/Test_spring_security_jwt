@@ -1,0 +1,17 @@
+jwt:
+    secret: 984hg493gh0439rthr0429uruj2309yh937glksjgore84u8tsoghdfjnvzxnvlc763fe87t3f89723gf
+    tokenExpiration: 100000000
+
+spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/SpringSecurity_jwt
+      username: postgres
+      password: postgre123
+      driver-class-name: org.postgresql.Driver
+    jpa:
+      show-sql: true
+      hibernate.ddl-auto: none
+    liquibase:
+      change-log: classpath:db/changelog/db.changelog-master.xml
+      enabled: true
+      drop-first: true
