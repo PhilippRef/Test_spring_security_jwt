@@ -34,4 +34,5 @@
 "email": "admin@admin.com",
 
 "role": "ADMIN"
+
 }
